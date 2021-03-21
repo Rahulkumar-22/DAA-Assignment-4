@@ -29,7 +29,7 @@ void shufleArray(int arr[], int start, int end)
 	shufleArray(arr, start, mid);
 	shufleArray(arr, mid + 1, end);
 }
-
+//main function
 int main()
 {
 	int n;
