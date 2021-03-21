@@ -41,7 +41,7 @@ Run the code
 ```
 Output
 ```
-Curve fitting using Least squares Approximation
+shuffled array
 ```
 ---
 
@@ -67,7 +67,8 @@ Out:
 ---
 
 ### Theory
-A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not available. ... Lorem Ipsum is dummy text which has no meaning however looks very similar to real text.
+Given an array of 2n elements in the following format { a1, a2, a3, a4,....., an, b1, b2, b3, b4, ...., bn }. The task is shuffle the array to {a1, b1,a2, b2, a3, b3, ......, an, bn } without using extra space.
+
 
 ---
 
