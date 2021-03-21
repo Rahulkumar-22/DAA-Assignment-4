@@ -15,7 +15,7 @@
 
 ---
 ## Problem Statement
-Curve fitting using Least squares Approximation
+Given an array of 2n elements in the following format { a1, a2, a3, a4,....., an, b1, b2, b3, b4, ...., bn }. The task is shuffle the array to {a1, b1, a2, b2, a3, b3, ......, an, bn } without using extra space. Solve using divide and conquer algorithm.
 
 ---
 
@@ -27,7 +27,7 @@ git clone https://github.com/Rahulkumar-22/DAA-Assignment-4.git
 Project Initialize 
 ```
 #Opening Assingment folder
-cd DaaAssingment1
+cd DAA-Assingment-4
 cd DAA
 
 #Compiling The code
