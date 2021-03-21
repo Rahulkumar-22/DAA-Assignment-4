@@ -7,11 +7,11 @@
 |    IIT2019109  |   Rahul Kumar | Rahulkumar-22 | 
 |    IIT2019110 |   Sumit Katiyar | iit2019110  |
 
-**Group No-**"19"
+**Group No-** 19
 
-**Faculty Name-**"Rahul Kala"
+**Faculty Name-** Dr. Rahul Kala
 
-**Mentor Name-** "Md. Meraz"
+**Mentor Name-** Md. Meraz
 
 ---
 ## Problem Statement
@@ -26,24 +26,18 @@ git clone https://github.com/Rahulkumar-22/DAA-Assignment-4.git
 ```
 Project Initialize 
 ```
-cd daa
-#create assignment-1 folder
-mkdir assignment_01
+#Opening Assingment folder
+cd DaaAssingment1
+cd DAA
 
-#go to assignment-1
-cd assignment_01
-
-#Create file
-touch readme.md
-touch main.py
-.
-.
+#Compiling The code
+g++ code.cpp
 ```
 ---
 
 Run the code
 ```
-python main.py
+./a.out
 ```
 Output
 ```
@@ -57,17 +51,17 @@ Find max
 ```
 Test Case-1
 Input:
-6
-2 4 8 0 2 1
-Out:
 8
+1 3 5 7 2 4 6 8
+Out:
+1 2 3 4 5 6 7 8
 #--------------------------#
 Test Case-2
 Input:
-6
-2 4 8 0 2 1
+4
+3 6 4 9
 Out:
-8
+3 4 6 9
 ```
 
 ---
@@ -91,12 +85,15 @@ T(n)=O(nlogn)
 So the final computational time to shuffle the given array is O(nlog⁡n).
 
 
+
 **Space Complexity**
 
-A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not available. ... Lorem Ipsum is dummy text which has no meaning however looks very similar to real text.
+To be precise,as we are swapping the elements in the given array itself  there is no extra space required.So the space complexity will be O(1).
 
 ---
 
 ### References
 
-A quick and simplified answer is that Lorem Ipsum refers to text that the DTP (Desktop Publishing) industry use as replacement text when the real text is not available. ... Lorem Ipsum is dummy text which has no meaning however looks very similar to real tex
+1) Introduction to Algorithms by Cormen,Charles,Rivest and Stein.
+
+2) Geeks for Geeks
