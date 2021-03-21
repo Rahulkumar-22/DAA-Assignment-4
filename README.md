@@ -22,7 +22,7 @@ Curve fitting using Least squares Approximation
 
 ```
 #Download project
-git clone https://github.com/merazlab/daa 
+git clone https://github.com/Rahulkumar-22/DAA-Assignment-4.git 
 ```
 Project Initialize 
 ```
