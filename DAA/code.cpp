@@ -36,7 +36,11 @@ int main()
 	cin >>n;
 	int arr[n];
 	for(int i=0;i<n;i++)
-        cin >>arr[i];
+            arr[i]=(rand())%100;
+        for (int i = 0; i <n; i++)
+	    cout << arr[i] << " ";
+        cout <<"\n";
+	
 	shufleArray(arr, 0, n - 1);
 
 	for (int i = 0; i < n; i++)
