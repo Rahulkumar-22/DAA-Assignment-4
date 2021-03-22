@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-// Function to shufle an array
+// Function to shuffle an array
 void shufleArray(int arr[], int start, int end)
 {
     // base condition
@@ -15,10 +15,10 @@ void shufleArray(int arr[], int start, int end)
 	//Finding middle of the array to divide the array
 	int mid = (start + end) / 2;
 
-	//using  temp in order to swap first half of second array
+	//using temp in order to swap first half of second array
 	int temp = mid + 1;
 
-	//using  first in order to swap second half of first array
+	//using first in order to swap second half of first array
 	int firstmid = (start + mid) / 2;
 
 	//Swapping the center elements
