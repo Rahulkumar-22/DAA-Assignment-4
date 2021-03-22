@@ -32,18 +32,19 @@ void shufleArray(int arr[], int start, int end)
 //main function
 int main()
 {
-	int n;
-	cin >>n;
-	int arr[n];
-	for(int i=0;i<n;i++)
-            arr[i]=(rand())%100;
-        for (int i = 0; i <n; i++)
-	    cout << arr[i] << " ";
-        cout <<"\n";
-	
-	shufleArray(arr, 0, n - 1);
+	srand(time(0));
+	int n =1+(rand())%10;
+	cout <<n<<"\n";
+	int length=pow(2,n);
+	int arr[length];
+	for(int i=0;i<length;i++)
+        arr[i]=(rand())%100;
+    for (int i = 0; i <length; i++)
+		cout << arr[i] << " ";
+    cout <<"\n";
+	shufleArray(arr, 0, length - 1);
 
-	for (int i = 0; i < n; i++)
+	for (int i = 0; i < length; i++)
 		cout << arr[i] << " ";
 
 	return 0;
